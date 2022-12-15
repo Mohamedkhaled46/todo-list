@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  background-color: rgb(0, 0, 0);
+  margin: 10% auto;
+}
+
+.Listitem {
+  background-color: aliceblue;
+  color: cornflowerblue;
+}
+
+.Listitem p {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: black;
+
+}
+
+.Listitem span.name,
+form input[type=text] {
+  width: 60%;
+}
+
+.Listitem span.age,
+form input[type=number] {
+  width: 30%;
+}
+
+.Listitem span.action,
+form input[type=submit] {
+  width: 10%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(86, 100, 100);
+}
+
+.Listitem span {
+  display: inline-block;
+  height: 35px;
+
+}
+
+.Listitem .icon {
+  color: rgb(204, 13, 13);
+  display: inline-block;
+  border: 1px solid #ccc;
+
+}
+
+.Listitem .name {
+  color: rgb(13, 105, 204);
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 60%;
+
+}
+
+.Listitem .age {
+  color: rgb(13, 105, 204);
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 30%;
+
+}
+
+.Listitem .action {
+  color: rgb(204, 13, 13);
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 10%;
+
+}
+
+form input {
+  padding: 10px;
+  border: transparent;
+  border: 1px solid #ccc;
+}
+
+form input [type=submit] {
+  background-color: rgb(8, 138, 142);
+
+}
